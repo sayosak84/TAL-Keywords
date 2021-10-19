@@ -151,17 +151,18 @@ if __name__ == '__main__':
  when zeeman field applied the state can have odd chern number and hence majorana zero modes are supported 
  although leggett mode does not exist due the specific parameters expect appear other spin orbit coupled superconductors because the two gap nature  '''
 
-    r.extract_keywords_from_text(myText)
-    phrasesRank = r.get_ranked_phrases_with_scores()
-    for i, s in phrasesRank :
-       print(i, " : ", s, "\n")
+    # r.extract_keywords_from_text(myText)
+    # phrasesRank = r.get_ranked_phrases_with_scores()
+    # for i, s in phrasesRank :
+    #    print(i, " : ", s, "\n")
+    #
+    # for sentence in phrasesRank :
+    #     print(r.extract_keywords_from_sentences(sentence[1]))
+    #
+    # frequencyWords = r.get_word_frequency_distribution()
+    # print(r.rank_list)
+    # print(r.ranked_phrases)
+    # print(r.ranked_phrases)
 
-    for sentence in phrasesRank :
-        print(r.extract_keywords_from_sentences(sentence[1]))
-
-    frequencyWords = r.get_word_frequency_distribution()
-    print(r.rank_list)
-    print(r.ranked_phrases)
-    print(r.ranked_phrases)
-
-    rakeAnesha
+    keywords = r.run(myText)
+    print(keywords)
