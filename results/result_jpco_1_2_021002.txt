@@ -1,0 +1,123 @@
+floquet topological magnons
+
+ floquet magnon chern insulators; floquet weyl magnons; floquet thermal hall effect; tunable dzyaloshinskii-moriya interaction; circularly polarized laser light
+	we introduce the concept of floquet topological magnons-a mechanism by which a synthetic tunable dzyaloshinskii-moriya interaction (dmi) can be generated in quantum magnets using circularly polarized electric (laser) field.
+	the resulting effect is that dirac magnons and nodal-line magnons in two-dimensional and three-dimensional quantum magnets can be tuned to magnon chern insulators and weyl magnons respectively under circularly polarized laser field.
+	the floquet formalism also yields a tunable intrinsic dmi in insulating quantum magnets without an inversion center.
+	we demonstrate that the floquet topological magnons possess a finite thermal hall conductivity tunable by the laser field.
+quantum magnets without an inversion center allow an intrinsic dzyaloshinskii-moriya interaction (dmi) [1, 2], which is a consequence of spin-orbit coupling and it is usually fixed in different magnets.
+the associated magnon bands in the magnetically ordered systems have a nontrivial topology with chern_number protected chiral magnon edge modes in two-dimensional (2d) systems and magnon surface states in three-dimensional (3d) systems.
+they are dubbed topological magnon chern insulators [3-9] and weyl magnons [10-13] respectively.
+they are the analogs of electronic topological (chern) insulators [14-16] and weyl semimetals [17-19].
+however, due to the charge-neutral property of magnons, topological magnonic materials are believed to be potential candidates for low-dissipation magnon transports in insulating quantum magnets and they are applicable to magnon spintronics and magnetic data storage [20].
+topological magnonic materials (i.e. magnon chern insulators and weyl magnons) also possess a thermal hall effect as predicted theoretically [21-25] and observed experimentally [26-28].
+to date, topological magnon bands have been realized only in a quasi-2d kagomé ferromagnet [29].
+generally, every quantum ferromagnetic material does not have a strong intrinsic dmi necessary for topological magnons to exist.
+for instance, the single crystals of the ferromagnetic honeycomb compounds crx3 (x ≡ br, cl, and i) show no evidence of dmi [30-35], and kagomé haydeeite also does not have a finite (topological) energy gap in the observed spin-wave spectra [36], suggesting that the dmi does not play a significant role in haydeeite.
+these 2d ferromagnetic materials with negligible dmi are candidates for dirac magnons [37], and the 3d ferromagnetic counterparts are candidates for nodal-line magnons [13, 38].
+by applying a circularly polarized laser field in these 'topologically trivial' systems, one can generate topological magnons (i.e., magnon chern insulators and weyl magnons) via a tunable synthetic laser-induced dmi.
+this is particularly important as it offers a way to tune the dmi in magnetic materials.
+the floquet theory [39] of laser-driven systems provides a theoretical as well as experimental method to engineer such topologically nontrivial systems.
+this formalism is mostly dominated by electronic systems [40-59] and also optical bosonic systems [60-65].
+moreover, an applied laser field provides a means for coherent control of the magnetization in 1d quantum magnets [66-70].
+in this letter, we introduce the floquet formalism to 2d and 3d ferromagnetic quantum magnets in the presence of a circularly polarized electric (laser) field.
+we show that the underlying charge-neutral magnons acquire a time-dependent aharonov-casher phase [71], which generates a tunable synthetic dmi in magnetic systems with negligible intrinsic dmi.
+this leads to emergent nontrivial magnon chern insulators and weyl magnons with finite thermal hall conductivity, which can be manipulated by the laser field.
+our results provide a novel platform to engineer topological magnons in topologically trivial insulating quantum magnets.
+we hope that these results will extend the experimental search for topological magnons to a broader class of insulating quantum magnetic materials even without an intrinsic dmi.
+let us consider 2d and 3d ferromagnetic spin systems described by the pristine hamiltonian 1 and #x0e234; 0 = - j ∑ ⟨ α , β ⟩ s α · s β , where ⟨ α , β ⟩ denotes summation over nearest-neighbor (nn) sites and s α are the magnetic spin vectors at the lattice sites α located at r α and j is the ferromagnetic interaction.
+for now we take the intrinsic dmi to be negligible, which is the case in most ferromagnetic compounds.
+therefore, the goal is to generate a synthetic dmi by periodic modulation of the lattice using a time-dependent electric field of a laser light.
+we are interested in the underlying magnon excitations of the quantum spin hamiltonian (1) as described by the holstein-primakoff transformation: s i , α z = s - a i , α † a i , α , s i , α + ≈ 2 s a i , α = ( s i , α - ) † , where a i , α † ( a i , α ) are the bosonic creation (annihilation) operators, and s α ± = s α x ± i s α y denote the spin creation and annihilation operators which correspond to the hopping terms.
+however, we will retain the spin operators in order to show the explicit form of the laser-induced dmi.
+as magnons are charge-neutral bosonic quasi-particles they do not interact with electromagnetic_field except through their magnetic_dipole_moment, which we assume to be in the z-direction µ = g µ b z ˆ , where µ b is the bohr magneton and g the landé g-factor.
+now suppose that a circularly polarized laser (electromagnetic) field with dominant electric field components e ( t ) = e 0 ( τ cos ω t , sin ω t , 0 ) is irradiated perpendicular to the magnetic material lying on the x-y plane, where τ = ± for right and left circularly polarizations respectively.
+the magnetic_dipole_moment of magnon quasi-particles hopping in such an electric field background will acquire a phase factor given by 2 a α β ( t ) = g µ b ℏ c 2 ∫ r α r β a ( t ) · d ℓ , where a ( t ) = a 0 ( τ sin ω t , - cos ω t , 0 ) is the vector potential with amplitude a 0 = λ = e 0 / ω due to the electric field of the laser beam e ( t ) = - ∂ a ( t ) / ∂ t .
+the phase factor (2) can be regarded as the time-dependent aharonov-casher phase [71] acquired by the hopping of charge-neutral magnon quasi-particles in the presence of a time-varying electric field.
+the corresponding time-dependent hamiltonian is given by 3 and #x0e234; ( t ) = - ∑ ⟨ α , β ⟩ j 2 ( s α - s β + e i a α β ( t ) + h . c . ) + js α z s β z , noticing that the direction of the vector pointing from α to β defines a relative angle φ α β , we get a α β ( t ) = λ sin ( ω t - φ α β ) and g µ b / ℏ c 2 is absorbed in λ.
+the floquet theory is a standard mechanism to study driven quantum systems in the likes of equation (3) [40-43].
+it enables one to transform a time-dependent model into a static effective model governed by what is called the floquet hamiltonian.
+now, we proceed with this formalism.
+the static time-independent effective hamiltonian can be expanded in the power series of ω - 1 and it is given by and #x0e234; eff = ∑ i ≥ 0 ω - i and #x0e234; eff ( i ) .
+we calculate the series expansion of the effective hamiltonian using the discrete fourier component of the time-dependent hamiltonian and #x0e234; n = 1 t ∫ 0 t d t e - i n ω t and #x0e234; ( t ) with period t = 2 π / ω , where 4 and #x0e234; n = - ∑ ⟨ α β ⟩ j n , ⊥ 2 ( s α - s β + e - i n φ α β + h . c . ) + j δ n , 0 s α z s β z , with j n , ⊥ = j and #x0e236; n ( λ ) , and and #x0e236; n ( λ ) is the bessel function of order n ∈ z .
+δ n , ℓ = 1 for n = ℓ and zero otherwise.
+we have used the standard relation e [ i z sin ( x ) ] = ∑ m = - ∞ ∞ and #x0e236; m ( z ) e i mx .
+in the high frequency limit ω ≫ j the leading order contribution is the zeroth order effective hamiltonian given by and #x0e234; eff ( 0 ) = and #x0e234; 0 , where 5 and #x0e234; eff ( 0 ) = - ∑ ⟨ α β ⟩ [ j 0 , ⊥ ( s α x s β x + s α y s β y ) + js α z s β z ] , and j 0 , ⊥ = j and #x0e236; 0 ( λ ) .
+thus, the zeroth order term yields an xxz ferromagnetic hamiltonian.
+for quantum spin-1/2 ferromagnetic systems, equation (5) is equivalent to the bose-einstein condensation of hardcore bosons studied by matsubara and matsuda [72], but in this case j ≥ | j 0 , ⊥ | .
+by lowering the frequency the first order contribution to the effective hamiltonian is non-negligible.
+it is given by 6 and #x0e234; eff ( 1 ) = ∑ n = 1 ∞ 1 n [ and #x0e234; n , and #x0e234; - n ] .
+the commutator of the spin operators results in a product of three spins reminiscent of the scalar spin chirality.
+in order to see this we note that the z-component of the spins vanishes for n ≥ 1 , therefore the commutation relation in the first order term involves only [ s α + s β - , s ρ + s γ - ] = 2 ( δ β ρ s β z s α + s γ - - δ α γ s α z s ρ + s β - ) .
+we use this relation together with the identity and #x0e236; - n ( z ) = ( - ) n and #x0e236; n ( z ) and obtain 7 and #x0e234; eff ( 1 ) = ∑ δ / ∇ j α β ( 1 ) s γ · ( s α × s β ) , where 8 j α β ( 1 ) = - ∑ n = 1 ∞ 2 ( - ) n j n , ⊥ 2 sin ( n φ α β ) , with φ α β = φ α γ - φ β γ .
+s γ = s γ z z ˆ and γ is the intermediate lattice site between α and β [21] and the sum is over the triangular plaquettes of the chosen lattice geometry.
+the main result of this letter is the induced synthetic dmi by circularly polarized laser field as given in equation (7).
+the dmi points along the z-direction perpendicular to the x-y plane.
+on the kagomé and pyrochlore lattices the synthetic dmi lies within the bonds of the nn sites, whereas on the honeycomb lattice it lies within the bonds of the next-nearest neighbor (nnn) sites.
+the dmi is the primary source of magnon chern insulators and weyl magnons in insulating quantum ferromagnets.
+consequently, dirac magnons in 2d ferromagnetic systems and nodal-line magnons in 3d ferromagnetic systems with negligible intrinsic dmi will be driven to magnon chern insulators and weyl magnons respectively by the circularly polarized laser field.
+now, we exemplify this method by utilizing the 2d honeycomb ferromagnets for simplicity (see figure 1).
+in this case the relative angle is given by φ α γ - φ β γ = 2 π 3 ν α β [57, 58], where ν α β = + / - for hopping within δ / ∇ respectively.
+hence j α β ( 1 ) ≈ 3 ν α β j 1 , ⊥ 2 .
+the total effective floquet hamiltonian up to first order is given by 9 and #x0e234; eff = - ∑ ⟨ α β ⟩ [ j 0 , ⊥ ( s α x s β x + s α y s β y ) + js α z s β z ] + d f ∑ δ / ∇ ν α β s γ · ( s α × s β ) , where d f = 3 j 1 , ⊥ 2 / ω .
+we note that | j 0 , ⊥ | ≤ j , so that the spins would prefer to order magnetically along the z-direction.
+the synthetic dmi does not affect the ferromagnetic ordering of the spins.
+we study the underlying magnon excitations of equation (9) by implementing the linear order holstein-primakoff transformation mentioned above on the two sublattices a and b of the honeycomb lattice.
+in the bosonic representation the synthetic dmi is imaginary.
+it generates a synthetic magnetic gauge flux within the nnn sites.
+the momentum space hamiltonian is given by 10 and #x0e234; eff ( k ) = h 0 i 2 × 2 + h ( k ) · σ , where σ = ( σ x , σ y , σ z ) are pauli matrices and i 2 × 2 is an identity 2 × 2 matrix. h 0 = 3 js , and h ( k ) = ( h x ( k ) , h y ( k ) , h z ( k ) ) , with h x ( k ) = - j 0 , ⊥ s ∑ j cos k · δ j , h y ( k ) = - j 0 , ⊥ s ∑ j sin k · δ j , and h z ( k ) = 2 d f s 2 ∑ j sin k · b j .
+the floquet magnon bands are given by 11 ε η k f = h 0 + η h ( k ) · h ( k ) , where η = ± labels the top and the bottom bands respectively.
+henceforth we set s = 1 / 2 .
+the floquet magnon bands are depicted in figure 2 for zeroth order ( i ) and first order ( ii ) contributions to the effective hamiltonian.
+in the former ( i ) , the system exhibits dirac magnon points, but they are different from the dirac magnon points in the undriven systems [37] because the floquet dirac magnons can be manipulated by anisotropic laser field amplitude, i.e., a 0 = ( a x , a y , 0 ) .
+in this case the dirac magnon points can move away from the high symmetry points of the brillouin zone at ± k = ( ± 4 π / 3 3 , 0 ) and can also be gapped out by fine-tuning the anisotropic amplitudes.
+however, the system will still remain topologically trivial at the zeroth order as time-reversal symmetry is preserved.
+figure 1.
+the schematic of the honeycomb lattice with laser-field-induced dmi.
+the blue dotted and crossed circles denote the direction of the synthetic dm vectors pointing in and out of the lattice plane on the nnn bonds.
+here, δ i are the vectors connecting the nn sites and b i connect the nnn sites.
+the different colors of the solid circles red(green) are used to denote the two sublattices a(b).
+figure 2.
+floquet magnon band structure of circularly laser-driven honeycomb quantum ferromagnetic spin system for j = 1 mev, ℏ ω = 2.5 j , λ = 1.5 j . ( i ) floquet dirac magnon in the zeroth order approximation d f = 0 . ( ii ) floquet topological magnon in the first order approximation d f ≃ 0.014 j .
+a nontrivial band topology arises by lowering the frequency and the first order correction becomes important, which breaks time-reversal symmetry.
+this leads to a synthetic dmi which induces a gap ( δ gap ~ 2 | d f | ) at the dirac points as shown in figure 2(ii).
+the floquet magnon bands now acquire a nonzero berry curvature which has the form ω η k f = ( ∇ × and #x0e247; η k f ) z where and #x0e247; η k f = i ⟨ ψ η k f | ∇ | ψ η k f | is the berry connection and ψ η k f are the floquet eigenvectors of and #x0e234; eff ( k ) .
+the floquet chern_numbers are given by the integration of the berry curvatures over the brillouin zone, 12 and #x0e22f; η f = 1 2 π ∫ bz d 2 k ω η k f .
+it is easily shown that the floquet chern_numbers are proportional to the synthetic dmi: and #x0e22f; η f ~ η sgn [ d f ] , which can be controlled by the laser field.
+the nontrivial topology of the floquet magnon bands has an important transport consequences.
+it can lead to floquet thermal magnon hall effect.
+this refers to the generation of a transverse heat current upon the application of a longitudinal temperature gradient.
+in this case, the synthetic laser-field-induced berry curvature due to the dmi appear in the equations of motion of a magnon wave packet in the same mathematical structure as a magnetic_field in the lorentz force.
+in other words, the berry curvature due to the dmi acts like an effective magnetic_field in momentum space on the magnons.
+the resulting effect is the production of a transverse thermal hall conductivity, which can derived from linear response theory [22].
+the floquet thermal hall conductivity is given by 13 κ xy f ( λ , t ) = - k b 2 t ( 2 π ) 2 ℏ ∑ η = ± ∫ bz d 2 kc 2 ( n η ) ω η k f , where n η ≡ n b ( ε η k ) = ( e ε η k / k b t - 1 ) - 1 is the bose function close to thermal equilibrium, c 2 ( x ) = ( 1 + x ) ln 1 + x x 2 - ( ln x ) 2 - 2 li 2 ( - x ) , and li n ( x ) is a polylogarithm.
+in figure 3 we have shown the plots of κ xy f ( λ , t ) as functions of the parameters in units of k b / ℏ .
+for the two-band honeycomb ferromagnets the floquet thermal hall conductivity is negative and it is tunable by the amplitude (frequency) of the laser field.
+in particular, κ xy f ( λ , t ) can be tuned off at the zeros of and #x0e236; n ( λ ) .
+this is usually not possible in materials with a strong intrinsic dmi in the absence of a laser field.
+figure 3.
+floquet tunable thermal hall conductivity. ( i ) κ xy f versus λ for different temperatures. ( ii ) κ xy f versus t for different amplitudes.
+here, j = 1 mev and ℏ ω = 2.5 j .
+however, applying circularly polarized laser field in magnetic materials with a strong intrinsic dmi can induce a tunable dmi.
+using the simple honeycomb ferromagnetic model as an example, the suitable dmi due to inversion symmetry breaking of the lattice is of the form [7] and #x0e234; dmi = d 0 ∑ ⟨ ⟨ α β ⟩ ⟩ ν α β z ˆ · s α × s β , where the summation is taken over the triangular plaquettes of the nnn sites.
+in the presence of a circularly polarized laser field with sufficiently high frequency, the zeroth order correction to the effective hamiltonian gives and #x0e234; dmi eff = d 0 and #x0e236; 0 ( λ ) ∑ ⟨ ⟨ α β ⟩ ⟩ ν α β z ˆ · s α × s β .
+now the value of the intrinsic dmi can be manipulated by varying λ.
+for λ < λ c ≈ 2.4048 a gap exists at the dirac points and it closes near the first zero of the bessel function λ ≈ λ c and reopens for λ ≫ λ c .
+consequently, the sign of the chern_numbers (berry curvatures) of the two bands changes as shown in figure 4.
+hence, a sign change emerges in κ xy f ( λ , t ) (not shown).
+we note that a sign change is not possible in the undriven system on the honeycomb lattice [8, 9].
+the complete topological phase transition including a trivial insulating regime with zero chern_number can be found by including nnn heisenberg interaction as we have shown in the supplemental material1 1 see the supplemental material is available online at stacks.iop.org/jpco/1/021002/mmedia. .
+figure 4.
+evolution of sign change in the floquet chern_numbers of honeycomb ferromagnets with tunable intrinsic dmi for different values of λ and d 0 / j = 0.15 .
+the black lines are the magnon bulk bands and blue lines denote the chiral magnon edge modes gapless at ε ( k x = π / 3 ) = h 0 as indicated by the dashed line.
+it is important to note that the circularly polarized laser field is necessary to induce a tunable synthetic dmi in quantum ferromagnets with negligible intrinsic dmi.
+however, in frustrated magnets with a coplanar magnetic order, a static magnetic_field applied perpendicular to the plane of the magnets can induce a tunable synthetic scalar spin chirality due to non-coplanar spin configurations.
+in this case tunable topological magnons can be produced even in the absence of an intrinsic dmi [73-75].
+in conclusion, we have shown that the time-dependent aharonov-casher phase acquired by charge-neutral magnons in a time varying circularly polarized electric (laser) field induces a synthetic dmi, leading to nontrivial topological magnons in the absence of an intrinsic dmi.
+therefore, dirac magnons and nodal-line magnons become magnon chern insulators and weyl magnons respectively under radiation.
+our results also showed that the intrinsic dmi in insulating quantum magnets without an inversion symmetry can be manipulated with circularly polarized laser field.
+hence, the emergent thermal hall effect can be turned.
+it is experimentally feasible to investigate the proposed phenomena in magnetic insulators using ultrafast terahertz spectroscopy [76].
+this formalism may find application in the switching of magnetization and magnon spin current by a laser field as an important step towards magnon spintronics and magnetic data storage [77, 78].
+we believe that these results will extend the study of topological magnons to different magnetic materials without any restrictions.
+in an inhomogeneous static electric field a time-independent aharonov-casher phase can be acquired by magnons and leads to magnonic landau levels in insulating magnets [79].

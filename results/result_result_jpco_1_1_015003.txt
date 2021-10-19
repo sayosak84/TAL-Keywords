@@ -1,0 +1,150 @@
+an ultrathin microwave metamaterial absorber with enhanced bandwidth and angular stability
+electric ring resonator (err) ; frequency selective surfaces (fss) ; high impedance surfaces (his) ; perfect electric conductor (pec) ; radar absorbing material (ram) ; radar cross section (rcs) ; 
+	a very thin metamaterial absorber with enhanced bandwidth and angular stability is designed and its application in radar cross section (rcs) reduction of antenna is discussed in this paper.
+	first, a wideband absorber element consisting of an unconnected square loop and unconnected printed cross on a metal backed fr-4 dielectric is designed.
+	this structure has full width half maximum bandwidth of 0.41 ghz and exhibits polarization independent jpcocharacteristics.
+	it also shows good absorption characteristics for incident angles up to 40° for te and tm polarized wave.
+	further enhancement in bandwidth up to 0.574 ghz is achieved by arranging the structures with overlapping resonances as a 2 × 2 array.
+	this 2 × 2 array is used as the unit cell for the larger array.
+	this structure also exhibits polarization independent characteristics and good angular stability up to 60°.
+	the values of effective permittivity and permeability are retrieved from the reflection and transmission parameters of the structure.
+	these parameters also validates the absorption characteristics of the structure.
+	the performance of the fabricated structure for different polarization and angle of incidence is measured and the results are in good agreement with simulation.
+	finally, the use of this structure to reduce the rcs of a patch antenna is demonstrated.
+ introduction.
+in recent years, researchers have found many interesting application of artificially engineered characteristics of metamaterials.
+high impedance surfaces (his) are metamaterials exhibiting artificial magnetic conductor (amc) and surface wave suppression property at the resonance frequency [ 1 ].
+his consist of an array of patches over metal backed dielectric.
+amc exhibits varying reflection phase from +180° to -180° crossing 0° at a single frequency.
+at this resonance frequency, it exhibits very high impedance and the incident electromagnetic wave is reflected back without any phase reversal.
+due to this characteristic, they are usually referred as perfect magnetic conductor, which is the dual of perfect electric conductor (pec).
+the bandwidth of operation is defined as the frequency range in which the structure shows reflection phase variation from +90° to -90°, because in this range the phase values do not cause any destructive interference between the direct and reflected wave.
+due to this in phase reflection property, his have found applications in low profile antenna design [ 2 ], fabry-perot cavity antennas [ 3 ], radar cross section (rcs) reduction [ 4 ], etc.
+his are also employed to reduce the mutual coupling in antenna arrays [ 5 ] due its surface wave suppression property.
+his on a lossy dielectric behaves as perfect absorber [ 6 ].
+rcs measures the detectability of target when illuminated by an electromagnetic wave.
+the common methods used for rcs reduction are by absorbing the incident wave using radar absorbing material (ram) or by redirecting the scattered wave away from the observer.
+holloway et al reported the reflection and transmission properties of metafilm [ 7 ], in which it is proposed that the transmission and reflection properties can be controlled by changing the electric and magnetic polarizability.
+his, which consists of an array of frequency selective surfaces (fss) over grounded dielectric layer is a good candidate for designing narrowband or wideband absorbers by introducing loss either to dielectric layer [ 6 ] or fss layer [ 8 , 9 ], respectively.
+the narrowband absorbers designed by exploiting the dielectric loss of his layer are referred to as perfect metamaterial absorbers [ 6 ].
+first perfect metamaterial absorber consisting of electric ring resonator (err) and cut wire was proposed by landy et al [ 10 ], in 2008.
+the electromagnetic power confined within the metmaterial due to the independently tuned electric and magnetic resonances by err and cut wire can be gradually dissipated due to the dielectric and ohmic losses of the structure and can result in perfect absorption.
+metamaterial absorbers are characterized by light weight, low profile and flexibility.
+several planar dual band, multiband, variable band, polarization independent and angularly stable matamaterial absorbers were reported till date [ 11 - 16 ].
+conformal absorbers made up of thin substrates working in microwave, terahertz and infrared frequency regimes were also studied widely by researchers [ 17 - 20 ].
+several techniques are introduced in literature to overcome the disadvantage of narrow bandwidth of these type of absorbers.
+high permeability magnetic material are used instead of electrical substrate to enhance the bandwidth [ 21 , 22 ].
+but this configuration results in increased weight.
+similar resonators with different dimensions on multiple dielectric layers are stacked to achieve enhancement in bandwidth [ 23 ].
+the main drawback of this configuration is increase in dielectric thickness.
+in another technique, multiple resonating structures with closer resonant frequencies are arranged close to each other to enhance the bandwidth [ 24 - 28 ].
+in this paper, an ultrathin metamaterial absorber with enhanced bandwidth and angular stability is designed and its application in rcs reduction of antenna is discussed.
+the structure consist of an array of unconnected square loop and unconnected printed cross on a metal backed fr-4 substrate.
+it gives a full width half maximum (fwhm) bandwidth of 0.41 ghz.
+when the same geometrical structures with different dimensions are used in the array, fwhm bandwidth is enhanced to 0.574 ghz.
+the effective medium parameters such as effective permittivity and permeability are retrieved using effective medium theory to investigate the absorption mechanism of the proposed structure [ 29 - 32 ].
+it is observed that the retrieved parameters well explains the absorption mechanism.
+the prototype of the structure is fabricated and the characteristics of the structure is validated for different polarization and oblique incidence by simulation and measurement.
+the characteristics remain within tolerable limits at different polarization of the incident wave at different angles of incidence.
+ design of the proposed structure.
+ design of the wideband element.
+basic unit cell of the wideband element is shown in figure 1 .
+the structure is composed of two wideband printed fss elements [ 33 ] arranged as shown: unconnected rectangular loop and unconnected printed cross inside this loop.
+the structure is backed by a grounded lossy fr-4 dielectric ( ε = 4.4 - j × 0.11) with thickness 1.6 mm (~ λ /35).
+when a plane wave is incident on this structure, it will reflect or absorb the power depending on the mismatch in impedance to that of the free space.
+the reflection coefficient ( s ) of this structure is frequency dependent as given by equation ( 1 ):-   where z ( ω ) and η ( ω ) are impedance of the structure and free space at angular frequency, ' ω ', respectively.
+using the electromagnetic absorption theory, the absorptance ( a ( ω )) is related to reflectance \(  \)(|s11(ω)|2) and transmittance \(  \)(|s21(ω)|2) as given by-  
+since this structure is backed by copper laminate, transmission will be zero \(  \)(|s21(ω)|=0) and hence-  
+at the resonance frequency ( ω ), the impedance of the structure \(  \)(zs(ω0)) matches to that of free space impedance ( η ) and the reflected power ( s ( ω )) becomes zero.
+this will result in maximum absorptivity ( a ( ω )).
+the reflection coefficient of the structure is obtained by simulating the unit cell of the structure with appropriate boundary conditions using frequency domain solver in cst microwave studio.
+under normal incidence, the structure exhibits two absorption peaks of 99.79% and 97.75% at 5.25 ghz and 5.37 ghz, respectively as shown in figure 2 (a).
+the smith chart is shown in figure 2 (b).
+it indicates that at 5.25 ghz, the real part of impedance is nearly equal to free space impedance and the imaginary part is negligible and it results in nearly 100% (99.79%) absorption.
+at 5.37 ghz, the real part of impedance is greater than that of free space and it has also imaginary component which results in reduction in absorption (97.75%).
+the bandwidth of operation is specified in terms of fwhm, which can be expressed as-   where f and f are upper and lower frequencies at which 50% of absorption is occurring.
+here, fwhm bandwidth observed is 0.41 ghz (from 5.13 to 5.55 ghz).
+to get an insight to the resonating nature of the structure, the surface current distributions at these peak absorption frequencies are plotted in figure 3 .
+from figures 3 (a) and (b), it is evident that the printed cross is responsible for the absorption peak at 5.255 ghz and the loop is contributing for the absorption at 5.37 ghz.
+these closely spaced resonance frequencies results in bandwidth enhancement.
+due to the electric resonance phenomenon, the surface currents are strong along the direction of electric field on the top metallic surface.
+the surface current on the bottom metallic plate is in opposite direction as that of top surface and will form circulating loop around the magnetic_field resulting in magnetic resonance, as shown in figures 3 (a)-(d).
+the top metallic geometry and thickness of the dielectric substrate are the important parameters for the excitation of strong electromagnetic resonance which will result in maximum absorption.
+figure 4 shows the absorptivity calculated at normal incidence for the incident wave at different polarizations.
+the angular stability of the structure is also studied and it is observed that the performance is almost stable for the incident angle (θ) ranging from 0° to 40° as shown in figures 5 (a) and (b).
+ modified structure for bandwidth enhancement.
+the elements designed for different resonance frequencies are arranged as a 2 × 2 array to form the single unit cell, as shown in figure 6 .
+for the new wideband array, the cells 1 and 2 are identical with cells 4 and 3, respectively.
+the absorption peaks of cell-1 and cell-2 are overlapping so that the combined response is as shown in figure 7 (a).
+the absorption peaks are observed at 5.06, 5.245 and 5.32 ghz with absorptivity of 92.52%, 99.45% and 99.77%.
+the fwhm bandwidth is increased to 0.576 ghz (4.974-5.55 ghz).
+the impedance at resonance frequencies are depicted by smith chart as in figure 7 (b).
+it indicates that when the real part of the impedance of the structure is equal to free space and the imaginary part has zero value, it will result in maximum absorption.
+the impedance mismatch between the structure and free space results in reflection and thus a reduction in absorption.
+the absorption mechanism of the structure is due to the strong electromagnetic resonances at the absorption frequecies as explained in the above section.
+the effective medium theory approach can also be used to investigate the absorption mechanism.
+the reflection and transmission parameter of the structure are utilized to calculate the effective parameters of the structure.
+it is considered that the substrate and fss elements are equivalent to an isotropic and homogeneous effective medium.
+since the structure is backed by the ground plane, there will not be any transmission and the effective parameters cannot be computed directly.
+small perforations or cuts are made on the ground plane of the unit cell to obtain finite s [ 31 , 32 ].
+the cuts are very small and have neglible effect on s .
+the ground plane of the structure with cuts is shown in figure 8 .
+the simulated response of the structure with metal ground plane and perforated ground plane is shown in table 1 .
+it is noted that the frequency of absorption is slightly changed by perforation, but the absorptivity is not much affected.
+when a plane wave is incident on the structure, the normalized input impedance ( z ) and effective refractive index ( n ) are related to thickness of the substrate ( h ), free space wave vector ( k ) and s -parameters as-       the effective electromagnetic parameters of the medium such as effective permittivity and permeability can be calculated as-    
+at perfect absorption (100%) frequencies, the impedance of the strcuture matches to that of free space and the real and imaginary part of normalized input impedance will be 1 and 0, respectively.
+this will results in matching of real and imaginary parts of effective permittivity to that of permability values.
+the real and imaginary part of extracted effective permittivity and permeability values are depicted in figures 9 (a) and (b), respectively.
+the enlarged view of the plot in the absorption frequency range is given in inset.
+these parameters can be used to describe the absorption mechansim of the structure.
+at 5.06 ghz, the imaginary part of effective permittivty and and permeability are same, but the real parts have great difference resulting in reduction in absorption (92.52%).
+at 5.24 ghz, the difference in real part of permittivity and permeability is less and the imaginary parts are matching, resulting in improvement in absorption (99.45%).
+at 5.32 ghz, the real part of permittivty and permeabilty are matching and the difference in imaginary parts are neglible, which will results in further improvement in absorption (99.77%).
+the polarization sensitivity of the structure is also studied and is shown in figure 10 .
+the structure is showing absorptivity of more than 80% for all the polarization angles ( φ ) with negligible change in fwhm bandwidth.
+the angular stability of the structure is also studied for te and tm polarizations and depicted in figures 11 (a) and (b).
+the structure exhibits its angular stability up to 60° with fwhm of 0.576 ghz.
+the absorptivity is gradually decreasing with increase in incident angle.
+the performance of the structure on lossless dielectric (tan δ = 0) is depicted in figure 12 .
+the structure reflects all the incident power and the phase response is showing amc characteristics.
+this proves that dielectric loss is the main factor contributing for the absorption performance.
+the characteristics of proposed absorber is compared with previously reported absorbers and is shown in table 2 .
+it indicates that even though the unit cell dimension of the proposed structure is greater than half the wavelength of operation, it provides maximum fwhm bandwidth with optimum thickness as compared to other proposed works.
+ results and discussion.
+the proposed structure consisting of 7 × 7 unit cells is fabricated on a 300 mm × 300 mm fr-4 sheet having thickness 1.6 mm.
+the photograph of the fabricated structure and the enlarged view of unit cell is given in figure 13 .
+the reflection from the structure is measured using two wideband horn antennas as transmitter and receiver as shown in figure 14 .
+the measurement is carried out in an anechoic environment using vna r and amp; s zvb20.
+initially, the reflected power from the identical sized metal plate is measured as reference for the normalization of scattering and diffraction losses.
+then the reflected power from the structure is measured and the calculated absorptivity is depicted in figure 15 .
+the peak absorptions are observed at 5.055 ghz, 5.195 ghz and 5.31 ghz with absorptivity 99.73%, 99.9% and 99%, respectively.
+the measured fwhm bandwidth is 0.657 ghz (from 4.893 to 5.55 ghz).
+the variation between measurement and simulation results can be accounted for change in permittivity of commercially available substrate or fabrication tolerance.
+the polarization sensitivity of the structure is measured by rotating the horn antennas along the axis with a step size of 30° and the result is depicted in figure 16 .
+the structure exhibits good absorptivity for all the polarization angles and the results are in good agreement with the simulation.
+the fwhm bandwidth also remains unchanged.
+the angular stability of the structure is also measured for different angles of incidence obtained by moving the tx and rx horn antennas around the structure.
+the incident angle is varied from 0° to 60° and the figure 17 shows that the structure exhibits good absorptivity for the incident angles up to 40°.
+it is observed that there is a degradation in absorption performance for the incident angles above 40°.
+these results also agree well with simulation.
+these types of absorber are mainly employed for the rcs reduction of targets in war field.
+the target includes vehicles, buildings etc.
+usually, antennas are placed over these types of targets for communication.
+the use of periodic structures like fss and metamaterial absorbers for the rcs reduction of antenna without compromising its characteristics is an area of major interest by several researchers [ 34 - 37 ].
+here, the use of this absorber for the rcs reduction of a patch antenna is studied.
+an antenna with dimension 17 mm × 12.5 mm is designed on a grounded fr-4 dielectric having thickness 1.6 mm to resonate at 5.266 ghz.
+the coaxial probe feed position is selected as 3.125 mm away from the center for proper matching.
+the antenna is surrounded by absorbing array as shown in figure 18 .
+some spacing (13.75 mm × 11.5 mm) between antenna and the absorber is given for the proper arrangement.
+the effect of absorber on the antenna response is shown in figure 19 .
+the reflected power from the antenna surrounded by absorber is very less as compared to that of antenna with pec ground plane due to the absorption characteristics of the structure.
+ conclusion.
+an ultrathin ( λ /35) mematerial absorber with enhanced bandwidth and angular stability is proposed in this article.
+the unit cell consists of a 2 × 2 array of wideband absorber elements on a grounded fr4 dielectric substrate having thickness 1.6 mm.
+the structure exhibits three peak absorptions of 99.73%, 99.9% and 99% at 5.055 ghz, 5.195 ghz and 5.31 ghz, respectively and results in wide bandwidth.
+it exhibits good polarization insensitivity and angular stability up to 40°.
+the effective medium parameters are retrieved to investigate the absorption mechanism and it is observed that these parameters also validate the absorption characteristics.
+a prototype is fabricated and the performance of the structure for absorption and bandwidth enhancement is measured for different polarizations and oblique incidence and these results are in good agreement with the simulations.
+further enhancement of bandwidth can be made by increasing the number of elements in array such that these elements have overlapping resonance frequencies.
+the application of this proposed structure in rcs reduction of antennas is also validated by fabricating an antenna surrounded by the absorber.
+it is verified that the performance of the antenna is not degraded and reflected power from the antenna with absorber is less than -10 db as compared to the antenna with pec ground plane.
