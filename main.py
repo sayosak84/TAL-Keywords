@@ -1,17 +1,25 @@
 import glob
 import re
+from rake_nltk import Rake
+import nltk
 
+#nltk.download('stopwords')
+#nltk.download('punkt')
 
 def deleteMathKeyWords(pathToOutputDir):
     s = ""
     with open(pathToOutputDir, "r", encoding="utf-8") as f:
-        s = "".join(re.split(r'keywords.*\n', "".join(f.readlines()).lower()))
+        s = "".join(re.split(r'keywords.*\n|', "".join(f.readlines()).lower()))
 
         while "<mml:" in s:
             s = s[:s.index("<mml:")] + s[s.index("</math>") + len("</math>"):]
 
         while "< tex-math >" in s:
             s = s[:s.index("< tex-math >")] + s[s.index("< /tex-math >") + len("< /tex-math >"):]
+
+        s = ' '.join(re.findall(r'\n|[a-zA-Z]*', s))
+        s = ''.join(re.split(r' \w{1,2} ', s))
+        s = re.sub(r" {2,}", " ", s)
 
     pathToOutputDir = pathToOutputDir.split("/")
     f = open("resulsWalid/result_" + pathToOutputDir[1], "w")
@@ -85,11 +93,17 @@ def SplitFile(pathToOutputDir):
 if __name__ == '__main__':
 
     files = glob.glob("data/*.txt")
+    for f_path in files:
+        SplitFile(f_path)
 
+    files = glob.glob("results/*.txt")
     for f_path in files:
         deleteMathKeyWords(f_path)
 
-    files = glob.glob("resulsWalid/*.txt")
-    for f_path in files:
-        SplitFile(f_path)
+
+
+
+
+
+
 
