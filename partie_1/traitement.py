@@ -52,14 +52,14 @@ def treatment(PATH, directory_corpus, directory_filter):
             s = ' '.join(list(filter(('').__ne__, re.findall(r'[a-zA-Z]*', s))))
 
             """
-            -   Puis nous supprimons les uns-grammes.
+            -   Puis nous supprimons les mots avec un caractère.
             """
-            #s = ''.join(list(filter((' ').__ne__, re.split(r'\b[a-zA-Z]\b', s))))
+            s = ''.join(list(filter((' ').__ne__, re.split(r'\b[a-zA-Z]\b', s))))
 
             """
             -   Et en fin nous filtrons les espaces supplémentaires ajoutés lors du pré-traitement
             """
-            #s = ' '.join(re.split(r'  ', s))
+            s = ' '.join(re.split(r'  ', s))
 
             with open(directory_filter + url, "w", encoding="utf-8") as file_2:
                 file_2.write(s)  # Créer un fichier du corpus pré-traité

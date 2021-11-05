@@ -11,15 +11,15 @@ PATH_validation = ["jpco_2_1_015006.txt", "jpco_2_1_015007.txt", "jpco_2_1_01500
 
 def evaluation(PATH, directory, directory_key, path_result):
     result = ""         # Chaine qui contenir les résultats
-    for url in PATH:    # Pour chaque corpus
+    for url in PATH:    # Pour chaque modèle obtenu
         with open(directory + url, "r", encoding="utf-8") as f:
             n_grammes = f.readlines()[0].split(";")   # Keywords best_n_grammes
 
             def calculate_precision():
                 with open(directory_key + "key_" + url, "r", encoding="utf-8") as file:
-                    keys = re.split(r'; ', "".join(file.readlines()))   # Keywords dans le corpus
+                    keys = re.split(r'; ', "".join(file.readlines()))   # Keywords du corpus
                     i = 0
-                    for n_gramme in n_grammes:  # Je teste si l'algorithme à généré le keywords
+                    for n_gramme in n_grammes:  # Je teste si l'algorithme le modèle le keywords
                         for keyword in keys:
                             if n_gramme in keyword:
                                 i += 1

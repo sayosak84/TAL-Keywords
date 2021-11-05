@@ -22,33 +22,57 @@ def treatment(PATH, directory_corpus, directory_best_grammes):
             # sfdgrnh a fgh b cd kfrpkg
             def one_gramme():
                 # Resortir les n-grammes dans une liste (ici 1-gramme)
-                s = re.findall("\w{1}", "".join(re.findall(r" \w{1} ", text)))
-                # Retourner un dictionnaire comme clé le n-gramme et valeur son occurence dans le text
+                s = re.findall(r"\w{1}", text)
+                """
+                - Retourner un dictionnaire comme clé le n-gramme et valeur son occurence dans le text
+                - Ici le dictionnaire est trié par ordre d'occurence de 1_gramme
+                - La fonction retoune les 6 un-grammes les plus récurrent 
+                """
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
             def two_grammes():
-                s = re.findall("\w{2}", "".join(re.findall(r" \w{2} ", text)))
+                """
+                - Ici le dictionnaire est trié par ordre d'occurence de 2_gramme
+                - La fonction retoune les 6 2-grammes les plus récurrent
+                """
+                s = re.findall(r"\w{2}", text)
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
             def three_grammes():
-                s = re.findall("\w{3}", "".join(re.findall(r" \w{3} ", text)))
+                """
+                - Ici le dictionnaire est trié par ordre d'occurence de 2_gramme
+                - La fonction retoune les 6 3-grammes les plus récurrent
+                """
+                s = re.findall(r"\w{3}", text)
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
             def four_grammes():
-                s = re.findall("\w{4}", "".join(re.findall(r" \w{4} ", text)))
+                """
+                - Ici le dictionnaire est trié par ordre d'occurence de 2_gramme
+                - La fonction retoune les 6 4-grammes les plus récurrent
+                """
+                s = re.findall(r"\w{4}", text)
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
             def five_grammes():
-                s = re.findall("\w{5}", "".join(re.findall(r" \w{5} ", text)))
+                """
+                - Ici le dictionnaire est trié par ordre d'occurence de 2_gramme
+                - La fonction retoune les 6 5-grammes les plus récurrent
+                """
+                s = re.findall(r"\w{5}", text)
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
             def six_grammes():
-                s = re.findall("\w{6}", "".join(re.findall(r" \w{6} ", text)))
+                """
+                - Ici le dictionnaire est trié par ordre d'occurence de 2_gramme
+                - La fonction retoune les 6 6-grammes les plus récurrent
+                """
+                s = re.findall(r"\w{6}", text)
                 return dict(sorted(dict([(i, len(list(j))) for i, j in groupby(sorted(s))]).items(), key=lambda t: t[1],
                                    reverse=True)[:6])
 
