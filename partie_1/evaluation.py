@@ -21,8 +21,8 @@ def evaluation(PATH, directory, path_result):
             file.write(s)
 
     algo = rake.Rake("../fonctionnels_en_filter.txt")  # Faire appel à la class
-    result = ""  # Chaine qui contenir les résultats
-    for url in PATH:  # Pour chaque corpus
+    result = ""         # Chaine qui contenir les résultats
+    for url in PATH:    # Pour chaque corpus
         with open(directory + url, "r", encoding="utf-8") as f:
             # J'utilise l'algorithme et je converti les résultats en un dictionnaire
             keywords = dict(algo.run("".join(f.readlines())))
@@ -31,7 +31,7 @@ def evaluation(PATH, directory, path_result):
                 with open(directory + "key_" + url, "r", encoding="utf-8") as file:
                     i = 0
                     keys = re.split(r'; ', "".join(file.readlines()))
-                    for key in keys:  # Je teste si l'algorithme à généré le keywords
+                    for key in keys:  # Je teste si l'algorithme à généré les keywords
                         if key in keywords:
                             i += 1
 

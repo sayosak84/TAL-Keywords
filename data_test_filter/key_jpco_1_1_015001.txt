@@ -1,0 +1,1 @@
+radiation force; spin torque; orbital torque; layered spheroid

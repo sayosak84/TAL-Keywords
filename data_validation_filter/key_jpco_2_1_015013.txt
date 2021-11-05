@@ -1,0 +1,1 @@
+boron-doped diamond; insulating side of the mott transition; transition from valence-band to acceptor-band migration of holes; nernst-einstein-smoluchowski relation; thermal activation_energy of hopping conductivity
